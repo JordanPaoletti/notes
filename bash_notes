@@ -1,0 +1,49 @@
+## cd
+-$ cd  //changes the working directory to your home
+-$ cd - //changes to the previous working directory
+-$ cd ~name //changes to the home directory of 'name'
+
+## ls
+- t option sorts result by file's modification time
+- r option reverses the sort
+- A option is like a, but without . and ..
+- F option classifies each name in the listing
+- h option display file size in human readable form wit -l
+- S option sort by file size
+
+## file
+- the file command determines the type of a file
+- Usage: file filename
+
+## cp
+- a option copies the files while preserving ownership and permissions
+- u option only copies new files and newer versions of existing files
+
+## mv
+- u option only copies new files and newer versions of existing files
+
+## ln
+- link files symbolically with the -s option.
+
+## type
+- the type command displays the kind of command the shell will execute,
+  given a particular command name
+
+## which
+- displays the absolute path of a given executable
+
+## help
+- displays help for builtins
+
+## man
+- opens the man page for executables
+- Usage: man section search_term
+
+## apropos
+- searches man page for possible match given a search term
+
+## whatis
+- displays one line description of a man page matching keyword
+
+## info
+- reads .info files and displays them for commands
